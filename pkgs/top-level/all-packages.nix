@@ -2061,6 +2061,8 @@ with pkgs;
 
   supermin = callPackage ../tools/virtualization/supermin { };
 
+  svp-bin = callPackage ../applications/video/svp-bin { };
+
   sx-go = callPackage ../tools/security/sx-go { };
 
   systeroid = callPackage ../tools/system/systeroid { };
